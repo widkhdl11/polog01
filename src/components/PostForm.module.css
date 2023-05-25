@@ -1,0 +1,42 @@
+.form{
+    padding : 10px;
+    height: 100vh;
+    display: block;
+    text-align: center;
+}
+
+.title{
+    padding : 8px;
+    width: 80vw;
+    height: 10vh;
+    border: none;
+    border-bottom: 1px solid #ccc
+
+}
+.content{
+    padding : 8px;
+    width: 80vw;
+    min-height: 70vh;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+}
+
+input:focus,textarea:focus{
+    border: none;
+    outline:none;
+}
+
+.menu{
+    margin: 10px;
+}
+
+.temp-btn{
+    margin: 10px;
+}
+.load-btn{
+    margin: 10px;
+}
+.write-btn{
+    margin: 10px;
+}
